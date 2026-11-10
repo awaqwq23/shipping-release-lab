@@ -27,6 +27,7 @@ jobs:
 
       - name: Show environment
         run: |
+          set -e
           pwd
           java -version
           mvn -version
